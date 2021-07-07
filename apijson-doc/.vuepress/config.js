@@ -67,9 +67,16 @@ module.exports = {
     ],
     themeConfig: {
         repo: "HANXU2018/APIJSON-DOC",
+        repoLabel: '查看源码',
         docsRepo: "HANXU2018/APIJSON-DOC",
+        docsBranch: 'main',
+        docsDir: 'apijson-doc',
         logo: "/logo.png",
         editLinks: true,
+         // 默认为 "Edit this page"
+        editLinkText: '帮助我们改善此页面！',
+        lastUpdated: 'Last Updated', // string | boolean
+        smoothScroll: true,
         sidebarDepth:2,
         locales: {
             "/": {
@@ -78,16 +85,21 @@ module.exports = {
                 editLinkText: "在 GitHub 上编辑此页",
                 lastUpdated: "上次更新",
                 nav:[{text: "主页", link: "/"},
-                    { text: "快速上手", link: "/md/start"},
-                    { text: "接口文档", link: "/md/api"},
-                    { text: "开发文档", link: "/md/dev"},
-                    { text: "关于", link: "/md/abount"},
-                    { text: "链接", link: "/md/link"}
+                    { text: "快速上手", link: "/md/start/README.md",target: "_self"},
+                    { text: "接口文档", link: "/md/api/README.md",target: "_self"},
+                    { text: "开发文档", link: "/md/dev/README.md",target: "_self"},
+                    { text: "关于", link: "/md/abount/README.md",target: "_self"},
+                    { text: "链接", link: "/md/link/README.md",target: "_self"}
                 ],
                 sidebar: {
                     "/md/about/": genSidebar4About()
                 }
             }
+        },
+        //algolia 搜索
+        algolia: {
+            apiKey: '<API_KEY>',
+            indexName: '<INDEX_NAME>'
         }
     }
 };

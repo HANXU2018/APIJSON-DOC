@@ -2,7 +2,7 @@
 home: true
 heroImage: /_images/index-read.gif
 actionText: 快速开始 →
-actionLink: /md/java/basic/java-basic-oop.md
+actionLink: /md/start/README.md
 features:
 - title: 在线解析
   details: 自动生成接口文档，清晰可读永远最新。自动生成请求代码，支持Android和iOS。自动生成JavaBean文件，一键下载。自动管理与测试接口用例，一键共享。自动校验与格式化JSON，支持高亮和收展。
