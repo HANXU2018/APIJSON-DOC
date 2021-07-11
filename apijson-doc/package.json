@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "vuepress dev",
+    "dev": "vuepress dev --no-cache",
     "build": "vuepress build"
   },
   "devDependencies": {

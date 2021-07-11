@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /images/index-read.gif
-actionText: 快速开始2 →
-actionLink: /md/start/README.md
+actionText: 快速开始 →
+actionLink: /md/start/
 features:
 - title: 在线解析
   details: 自动生成接口文档，清晰可读永远最新。自动生成请求代码，支持Android和iOS。自动生成JavaBean文件，一键下载。自动管理与测试接口用例，一键共享。自动校验与格式化JSON，支持高亮和收展。
@@ -12,6 +12,3 @@ features:
   details: 提供通用接口，大部分API不用再写。自动生成文档，不用再编写和维护。自动校验权限、自动管理版本、自动防SQL注入。开放API无需划分版本，始终保持兼容。支持增删改查、模糊搜索、正则匹配、远程函数等。
 footer: © 2018-present @HANXU2018
 ---
-
-https://github.com/HANXU2018/APIJSON-DOC/edit/main/apijson-doc/md/start/README.md
-https://github.com/HANXU2018/APIJSON-DOC/edit/master/apijson-doc/md/start/README.md

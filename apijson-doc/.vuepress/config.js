@@ -13,7 +13,7 @@ module.exports = {
         "/": {
             lang: "zh-CN",
             title: "APIJSON 文档",
-            description: "🏆码云最有价值开源项目</br>🚀后端接口和文档自动化，前端(客户端) 定制返回 JSON 的数据和结构！"
+            description: "🏆码云最有价值开源项目🚀后端接口和文档自动化，前端(客户端) 定制返回 JSON 的数据和结构！"
         }
     },
     head: [
@@ -87,11 +87,11 @@ module.exports = {
                 selectText: "Languages",
                 editLinkText: "在 GitHub 上编辑此页",
                 lastUpdated: "上次更新",
-                nav:[{text: "主页2", link: "/"},
-                    { text: "快速上手", link: "/md/start"},
-                    { text: "接口文档", link: "/md/api"},
-                    { text: "开发文档", link: "/md/dev"},
-                    { text: "关于", link: "/md/abount"},
+                nav:[{text: "主页", link: "/"},
+                    { text: "快速上手", link: "/md/start/"},
+                    { text: "接口文档", link: "/md/api/"},
+                    { text: "开发文档", link: "/md/dev/"},
+                    { text: "关于", link: "/md/about/"},
                 ],
                 sidebar: 'auto',
             }
