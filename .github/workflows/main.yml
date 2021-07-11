@@ -20,7 +20,7 @@ jobs:
 
       # 生成静态文件
       - name: Build
-        run: cd apijson-doc && npm install && npm run docs:build
+        run: cd apijson-doc && npm install && npm install -D vuepress && vuepress build
 
       # 部署到 GitHub Pages
       - name: Deploy
@@ -28,4 +28,4 @@ jobs:
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: apijson-doc/.vuepress/dist
+          FOLDER: apijson-doc/dist
