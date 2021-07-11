@@ -26,7 +26,7 @@ jobs:
         run: cd apijson-doc && npm install -D vuepress
       # build 生成静态文件
       - name: build
-        run: cd apijson-doc && vuepress build
+        run: cd apijson-doc && npm run build
       # 部署到 GitHub Pages
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
