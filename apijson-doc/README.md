@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /_images/index-read.gif
+heroImage: /images/index-read.gif
 actionText: 快速开始2 →
 actionLink: /md/start/README.md
 features:
