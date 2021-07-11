@@ -18,10 +18,15 @@ jobs:
         with:
           persist-credentials: false
 
-      # 生成静态文件
-      - name: Build
-        run: cd apijson-doc && npm install && npm install -D vuepress && vuepress build
-
+      # npm install
+      - name: npm install
+        run: cd apijson-doc && npm install
+      # vuepress
+      - name: vuepress
+        run: npm install -D vuepress
+      # vuepress
+      - name: vuepress
+        run: vuepress build
       # 部署到 GitHub Pages
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
