@@ -65,7 +65,32 @@ module.exports = {
 
         }],
         // see: https://github.com/znicholasbrown/vuepress-plugin-code-copy
-        [['vuepress-plugin-code-copy', true]]
+        [['vuepress-plugin-code-copy', true]],
+        [
+            'vuepress-plugin-mygitalk', {
+            // 是否启用(关闭请设置为false)(default: true)
+            enable: true,
+            // 是否开启首页评论(default: true)
+            home: true,
+            // Gitalk配置
+            gitalk: {
+                // GitHub Application Client ID.
+                clientID: 'a4ac7ef92dc615fc8bb7',
+                // GitHub Application Client Secret.
+                clientSecret: '3266b968980a1b1f376c3b008a3c40d9ad57b05a',
+                // GitHub repository. 存储评论的 repo
+                repo: 'apijson-doc-Comment',
+                // GitHub repository 所有者，可以是个人或者组织。
+                owner: 'HANXU2018',
+                // 设置语言(default: zh-CN)
+                language: 'zh-CN',
+                title: '「Comment」<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>',
+                body: '<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>',
+                distractionFreeMode: false,
+                pagerDirection: 'last',
+            }
+        }
+        ],
         // ...
     ],
     themeConfig: {
@@ -91,6 +116,7 @@ module.exports = {
                     { text: "快速上手", link: "/md/start/"},
                     { text: "接口文档", link: "/md/api/"},
                     { text: "开发文档", link: "/md/dev/"},
+                    { text: "文档工程", link: "/md/doc/"},
                     { text: "关于", link: "/md/about/"},
                 ],
                 sidebar: 'auto',
