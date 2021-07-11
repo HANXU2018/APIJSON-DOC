@@ -25,7 +25,14 @@ module.exports = {
         ["meta", {name: "keywords", content: "API-JSON 文档"}],
         ["meta", {name: "apple-mobile-web-app-capable", content: "yes"}],
         // baidu statstic
-        ["script", {src: "https://hm.baidu.com/hm.js?xxxxxxxxxxx"}]
+        ["script", {src: "https://hm.baidu.com/hm.js?xxxxxxxxxxx"}],
+
+        // <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        ["meta", {"http-equiv": "Cache-Control", content: "no-cache, no-store, must-revalidate"}],
+        // <meta http-equiv="Pragma" content="no-cache" />
+        ["meta", {"http-equiv": "Pragma", content: "no-cache"}],
+        // <meta http-equiv="Expires" content="0" />
+        ["meta", {"http-equiv": "Expires", content: "0"}]
     ],
     plugins: [
         ['@vuepress/back-to-top', true],
@@ -66,7 +73,7 @@ module.exports = {
         // ...
     ],
     themeConfig: {
-        repo: "HANXU2018/APIJSON-DOC",
+        repo: "Tencent/APIJSON",
         repoLabel: '查看源码',
         docsRepo: "HANXU2018/APIJSON-DOC",
         docsBranch: 'main',
@@ -84,16 +91,13 @@ module.exports = {
                 selectText: "Languages",
                 editLinkText: "在 GitHub 上编辑此页",
                 lastUpdated: "上次更新",
-                nav:[{text: "主页", link: "/"},
-                    { text: "快速上手", link: "/md/start/README.md",target: "_self"},
-                    { text: "接口文档", link: "/md/api/README.md",target: "_self"},
-                    { text: "开发文档", link: "/md/dev/README.md",target: "_self"},
-                    { text: "关于", link: "/md/abount/README.md",target: "_self"},
-                    { text: "链接", link: "/md/link/README.md",target: "_self"}
+                nav:[{text: "主页2", link: "/"},
+                    { text: "快速上手", link: "/md/start"},
+                    { text: "接口文档", link: "/md/api"},
+                    { text: "开发文档", link: "/md/dev"},
+                    { text: "关于", link: "/md/abount"},
                 ],
-                sidebar: {
-                    "/md/about/": genSidebar4About()
-                }
+                sidebar: 'auto',
             }
         },
         //algolia 搜索
@@ -103,33 +107,3 @@ module.exports = {
         }
     }
 };
-
-// About page
-function genSidebar4About(){
-    return [
-        {
-            title: "关于",
-            collapsable: false,
-            sidebarDepth: 0, 
-            children: [
-                "me/about-me.md",
-                "me/about-content.md",
-                "me/about-content-style.md",
-                "me/about-arch.md",
-                "me/about-motivation.md"
-            ]
-        },
-        {
-            title: "关于 - 本文档的搭建",
-            collapsable: false,
-            sidebarDepth: 0, 
-            children: [
-                "blog/blog-build-vuepress.md", 
-                "blog/blog-build-ci.md",
-                "blog/blog-build-cd.md",
-                "blog/blog-build-ssl.md"
-            ]
-        }
-    ];
-}
-  

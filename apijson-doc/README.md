@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /_images/index-read.gif
-actionText: 快速开始 →
+actionText: 快速开始2 →
 actionLink: /md/start/README.md
 features:
 - title: 在线解析
@@ -13,3 +13,5 @@ features:
 footer: © 2018-present @HANXU2018
 ---
 
+https://github.com/HANXU2018/APIJSON-DOC/edit/main/apijson-doc/md/start/README.md
+https://github.com/HANXU2018/APIJSON-DOC/edit/master/apijson-doc/md/start/README.md
