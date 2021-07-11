@@ -2,7 +2,7 @@ module.exports = {
     port: "3000",
     dest: "docs",
     ga: "UA-xxxxxxxxxxx-1",
-    base: "/",
+    base: "/APIJSON-DOC/",
     markdown: {
         lineNumbers: true,
         externalLinks: {
@@ -12,7 +12,7 @@ module.exports = {
     locales: {
         "/": {
             lang: "zh-CN",
-            title: "APIJSON 文档",            
+            title: "APIJSON 文档",
             description: "🏆码云最有价值开源项目</br>🚀后端接口和文档自动化，前端(客户端) 定制返回 JSON 的数据和结构！"
         }
     },
@@ -60,13 +60,9 @@ module.exports = {
             authorName: "APIJSON-DOC_@HANXU2018",
             clipboardComponent: "请注明文章出处, [文章出处](https://www.github.com)"
         }],
-        // see: https://github.com/ekoeryanto/vuepress-plugin-sitemap
-        ['sitemap', {
-            hostname: 'https://www.github.com'
-        }],
         // see: https://github.com/IOriens/vuepress-plugin-baidu-autopush
         ['vuepress-plugin-baidu-autopush', {
-            
+
         }],
         // see: https://github.com/znicholasbrown/vuepress-plugin-code-copy
         [['vuepress-plugin-code-copy', true]]
