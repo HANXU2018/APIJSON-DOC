@@ -91,6 +91,29 @@ module.exports = {
             }
         }
         ],
+        ['vuepress-plugin-toolbar', {
+            'pageNav': {
+                name: '导航'
+            },
+            opts: [
+                {
+                    icon: '',
+                    name: 'QQ群二维码',
+                    link: '',
+                    popover: {
+                        title: '734652054',
+                        type: 'image',
+                        imageUrl: '/images/index-read.gif',
+                        more: {
+                            newWindow: false,
+                            link: '/about',
+                            name: '了解更多'
+                        }
+                    }
+                },
+            ]
+        }
+        ],
         // ...
     ],
     themeConfig: {
@@ -105,7 +128,7 @@ module.exports = {
         editLinkText: '帮助我们改善此页面！',
         lastUpdated: 'Last Updated', // string | boolean
         smoothScroll: true,
-        sidebarDepth:2,
+        sidebarDepth:4,
         locales: {
             "/": {
                 label: "简体中文",

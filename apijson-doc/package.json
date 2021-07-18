@@ -16,6 +16,7 @@
     "@vssue/vuepress-plugin-vssue": "^1.2.0",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-mygitalk": "^1.0.5",
-    "vuepress-plugin-sitemap": "^2.3.0"
+    "vuepress-plugin-sitemap": "^2.3.0",
+    "vuepress-plugin-toolbar": "^1.0.1"
   }
 }
