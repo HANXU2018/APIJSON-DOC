@@ -114,6 +114,10 @@ module.exports = {
             ]
         }
         ],
+        ['@vuepress/active-header-links', {
+            sidebarLinkSelector: '.sidebar-link',
+            headerAnchorSelector: '.header-anchor'
+          }]
         // ...
     ],
     themeConfig: {
@@ -142,7 +146,29 @@ module.exports = {
                     { text: "文档工程", link: "/md/doc/"},
                     { text: "关于", link: "/md/about/"},
                 ],
-                sidebar: 'auto',
+                sidebar: {
+                    '/md/abount': [
+                      '', 
+                    ],
+                    '/md/start': [
+                        '',     
+                    ],
+                    '/md/api/': [
+                      '',
+                    ],
+                    '/md/dev/': [
+                        '',
+                    ],
+                    '/md/doc/': [
+                        '', 
+                        'feature',
+                    ],
+                    '/': [
+                      '',
+                      'contact',
+                      'about'
+                    ]
+                }
             }
         },
         //algolia 搜索
