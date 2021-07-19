@@ -165,8 +165,6 @@ module.exports = {
                     ],
                     '/': [
                       '',
-                      'contact',
-                      'about'
                     ]
                 }
             }
