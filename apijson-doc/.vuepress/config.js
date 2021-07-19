@@ -163,9 +163,6 @@ module.exports = {
                         '', 
                         'feature',
                     ],
-                    '/': [
-                      '',
-                    ]
                 }
             }
         },
