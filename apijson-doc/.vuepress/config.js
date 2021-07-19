@@ -147,14 +147,11 @@ module.exports = {
                     { text: "关于", link: "/md/about/"},
                 ],
                 sidebar: {
-                    '/md/abount': [
-                      '', 
-                    ],
-                    '/md/start': [
-                        '',     
+                    '/md/about/': [
+                        '', 
                     ],
                     '/md/api/': [
-                      '',
+                        '',
                     ],
                     '/md/dev/': [
                         '',
@@ -162,6 +159,12 @@ module.exports = {
                     '/md/doc/': [
                         '', 
                         'feature',
+                    ],
+                    '/md/start/': [
+                        '',     
+                    ],
+                    '/':[
+                        '',
                     ],
                 }
             }
