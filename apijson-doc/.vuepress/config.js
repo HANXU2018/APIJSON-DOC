@@ -103,7 +103,7 @@ module.exports = {
                     popover: {
                         title: '734652054',
                         type: 'image',
-                        imageUrl: '/images/index-read.gif',
+                        imageUrl: '/APIJSON-DOC/images/index-read.gif',
                         more: {
                             newWindow: false,
                             link: '/about',
