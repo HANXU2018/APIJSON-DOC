@@ -35,6 +35,7 @@ module.exports = {
         ["meta", {"http-equiv": "Expires", content: "0"}]
     ],
     plugins: [
+        ['vuepress-plugin-export'],
         ['@vuepress/back-to-top', true],
         ['@vuepress/medium-zoom', {
             selector: 'img',

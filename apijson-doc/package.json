@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "vuepress dev --no-cache",
-    "build": "vuepress build"
+    "build": "vuepress build",
+    "export": "vuepress export ./"
   },
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.8.2",
@@ -16,6 +17,7 @@
     "@vssue/api-github-v3": "^1.1.2",
     "@vssue/vuepress-plugin-vssue": "^1.2.0",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
+    "vuepress-plugin-export": "^0.2.0",
     "vuepress-plugin-mygitalk": "^1.0.5",
     "vuepress-plugin-sitemap": "^2.3.0",
     "vuepress-plugin-toolbar": "^1.0.1"
