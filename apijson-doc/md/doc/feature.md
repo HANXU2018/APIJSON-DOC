@@ -70,6 +70,27 @@ jobs:
 使用 GitTalk 通过 为每个页面创建 issue 的原理实现评论功能
 ![评论](./img/issue.png)
 
+## 引入PDF导出功能
+默认不开启配置
+效果不太理想，尝试使用其他插件
+package.json 插件依赖
+```
+  //package.json
+  "dependencies": {
+    "vuepress-plugin-export": "^0.2.0",
+```
+
+.vuepress/config.js 配置引入
+```
+ // .vuepress/config.js
+  plugins: [
+        ['vuepress-plugin-export'],
+```
+
+导出命令
+```
+vuepress export 目标地址
+```
 
 ## 计划引入功能
 1. 搜索功能，加入[ Algolia 搜索](https://vuepress.vuejs.org/zh/theme/default-theme-config.html#%E5%86%85%E7%BD%AE%E6%90%9C%E7%B4%A2) 实现文档快速搜索
