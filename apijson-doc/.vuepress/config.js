@@ -117,8 +117,8 @@ module.exports = {
                   name: 'Github搜索',
                   popover: {
                     type: 'text',
-                    title: '纯文本说明',
-                    text: '这是一个纯文本的内容展示，就是一段话',
+                    title: '使用Github仓库搜索',
+                    text: '点击下列按钮跳转到Github仓库进行源码检索',
                     more: {
                         newWindow: true,
                         link: 'https://github.com/HANXU2018/APIJSON-DOC/search?q=%E4%B8%B4%E6%97%B6%E6%90%9C%E7%B4%A2',
