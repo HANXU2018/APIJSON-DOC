@@ -91,6 +91,12 @@ package.json 插件依赖
 ```
 vuepress export 目标地址
 ```
-
+##  插入视频 B站 优酷 YouTube等
+<iframe 
+    src="//player.bilibili.com/player.html?aid=752714864&cid=175364063&page=1" 
+    scrolling="no" 
+    style="border:0;width:100%;height:auto;min-height:790px;"
+    allowfullscreen="true"> 
+</iframe>
 ## 计划引入功能
 1. 搜索功能，加入[ Algolia 搜索](https://vuepress.vuejs.org/zh/theme/default-theme-config.html#%E5%86%85%E7%BD%AE%E6%90%9C%E7%B4%A2) 实现文档快速搜索
