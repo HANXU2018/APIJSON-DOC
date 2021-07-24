@@ -148,7 +148,8 @@ module.exports = {
                 ],
                 sidebar: {
                     '/md/about/': [
-                        '', 
+                        '',
+                        'Site',
                     ],
                     '/md/api/': [
                         '',
