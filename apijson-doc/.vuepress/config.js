@@ -153,6 +153,9 @@ module.exports = {
                     ],
                     '/md/api/': [
                         '',
+                        'demo',
+                        'diff',
+                        'codelaw',
                     ],
                     '/md/dev/': [
                         '',
