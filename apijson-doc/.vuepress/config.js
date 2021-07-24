@@ -144,6 +144,7 @@ module.exports = {
                     { text: "接口文档", link: "/md/api/"},
                     { text: "开发文档", link: "/md/dev/"},
                     { text: "文档工程", link: "/md/doc/"},
+                    { text: "常见问题", link: "/md/QA/"},
                     { text: "关于", link: "/md/about/"},
                 ],
                 sidebar: {
@@ -165,6 +166,9 @@ module.exports = {
                         'feature',
                     ],
                     '/md/start/': [
+                        '',     
+                    ],
+                    '/md/QA/': [
                         '',     
                     ],
                     '/':[
