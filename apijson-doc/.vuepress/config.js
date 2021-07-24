@@ -102,13 +102,12 @@ module.exports = {
                     name: 'QQ群二维码',
                     link: '',
                     popover: {
-                        title: '734652054',
+                        title: '技术2群:734652054',
                         type: 'image',
-                        imageUrl: '/APIJSON-DOC/images/index-read.gif',
+                        imageUrl: '/APIJSON-DOC/images/QQ.png',
                         more: {
                             newWindow: false,
-                            link: '/about',
-                            name: '了解更多'
+                            name: '技术1群:607020115'
                         }
                     }
                 },
