@@ -165,6 +165,7 @@ module.exports = {
                     '/md/about/': [
                         '',
                         'Site',
+                        'urls',
                     ],
                     '/md/api/': [
                         '',
@@ -180,7 +181,8 @@ module.exports = {
                         'feature',
                     ],
                     '/md/start/': [
-                        '',     
+                        '', 
+                        'quickStart',    
                     ],
                     '/md/QA/': [
                         '',     
