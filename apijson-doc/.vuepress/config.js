@@ -175,6 +175,7 @@ module.exports = {
                     ],
                     '/md/dev/': [
                         '',
+                        'contribuding',
                     ],
                     '/md/doc/': [
                         '', 
