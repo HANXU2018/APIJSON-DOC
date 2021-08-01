@@ -2,3 +2,4 @@ apijson-doc/node_modules/*
 .idea/*
 apijson-doc/docs/*
 apijson-doc/.idea/*
+apijson-doc/package-lock.json
