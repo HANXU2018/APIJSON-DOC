@@ -27,19 +27,6 @@ https://github.com/Tencent/APIJSON/issues/187
   <a href="https://www.tencentmusic.com"><img src="https://user-images.githubusercontent.com/5738175/126524713-b38a8f02-3086-45d4-91db-6f5389811d51.png" height="75"></a>
   <br />
   
-  <a href="http://www.transsion.com"><img src="http://apijson.cn/images/www.transsion.com.jpeg" height="75"></a>
-  <a href="http://shebaochina.com"><img src="http://apijson.cn/images/shebaochina.com.png" height="75"></a>
-  <a href="http://www.xmfish.com"><img src="http://apijson.cn/images/www.xmfish.com.gif" height="75"></a>
-  <a href="http://www.xxwolo.com"><img src="http://apijson.cn/images/www.xxwolo.com.jpeg" height="75"></a>
-  <a href="http://t-think.com"><img src="http://apijson.cn/images/t-think.com.png" height="75"></a>
-  <a href="http://xm.juhu.com"><img src="http://apijson.cn/images/xm.juhu.com.png" height="75"></a>
-  <a href="http://www.aipaipai-inc.com"><img src="http://apijson.cn/images/www.aipaipai-inc.com.png" height="75"></a>
-  <a href="http://www.8soo.com"><img src="http://apijson.cn/images/www.8sso.com.jpeg" height="75"></a>
-  <a href="https://www.shulian8.com"><img src="http://apijson.cn/images/www.shulian8.com.png" height="75"></a>
-  <a href="http://www.hngtrust.com"><img src="http://apijson.cn/images/www.hngtrust.com.png" height="75"></a>
-  <a href="http://www.hec-bang.com"><img src="http://apijson.cn/images/www.hec-bang.com.png" height="75"></a>
-  <a href="https://www.toutou.com.cn"><img src="http://apijson.cn/images/www.toutou.com.cn.jpg" height="75"></a>
-
 
 ### 贡献者们
 
@@ -113,8 +100,6 @@ https://search.gitee.com/?skin=rec&type=repository&q=apijson&sort=stars_count <b
   <a href="https://github.com/APIJSON/AbsGrade"><img src="https://avatars.githubusercontent.com/u/41146037?s=200&v=4"  height="54" width="54" ></a>
   <a href="https://github.com/TommyLemon/Android-ZBLibrary"><img src="https://avatars1.githubusercontent.com/u/5738175?s=400&u=5b2f372f0c03fae8f249d2d754e38971c2e17b92&v=4"  height="54" width="54" ></a>
 <br />
-
-
 
 还有为 APIJSON 扫描代码贡献 Issue 的 [奇安信代码卫士](https://github.com/QiAnXinCodeSafe) 和 [源伞科技](https://www.sourcebrella.com) 
   <a href="https://github.com/QiAnXinCodeSafe" style="margin-right: 20px"><img src="https://avatars.githubusercontent.com/u/39950310?s=460&u=8c4ad8c2174ba78c0604614a6e2feced07521ce6&v=4"  height="90" ></a>
